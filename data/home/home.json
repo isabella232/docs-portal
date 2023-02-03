@@ -8,9 +8,9 @@
     "title": "Start building on Fuel today",
     "description": "Welcome to the Documentation Portal for building applications with Fuel. This portal provides documentation of the Sway language and includes concrete examples to demonstrate how Sway can be used.",
     "primaryButtonLabel": "Installation Guide",
-    "primaryButtonLink": "https://wwww.fuellabs.github.io/fuelup/master/installation/index.html",
+    "primaryButtonLink": "https://fuellabs.github.io/fuelup/master/installation/index.html",
     "secondaryButtonLabel": "Quickstart",
-    "secondaryButtonLink": "https://www.fuellabs.github.io/fuel-docs/master/developer-quickstart.html"
+    "secondaryButtonLink": "https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html"
   },
   "gettingStartedData": {
     "id": "Get started",
@@ -18,34 +18,34 @@
     "description": "The following guides are compiled in order of development to help you build an application with Fuel faster. This section documents how to write smart contracts in Sway, along with how to install and use the Sway toolchain.",
     "cardsData": [
       {
-        "href": "https://wwww.fuellabs.github.io/fuelup/master/installation/index.html",
+        "href": "https://fuellabs.github.io/fuelup/master/installation/index.html",
         "title": "Installation Guide",
         "starIcon": "bookmark",
         "description": "A guide to install the Fuel toolchain, Fuel node and set up your first project."
       },
       {
-        "href": "https://www.fuellabs.github.io/fuel-docs/master/developer-quickstart.html",
+        "href": "https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html",
         "title": "Developer Quickstart",
         "starIcon": "bookmark",
         "description": "A guide for writing contracts, deploying to Fuel, and building a frontend."
       },
       {
-        "href": "https://www.github.com/FuelLabs/fuels-ts",
+        "href": "https://github.com/FuelLabs/fuels-ts",
         "title": "Typescript SDK",
         "description": "A guide for building dapps on Fuel network."
       },
       {
-        "href": "https://www.fuellabs.github.io/fuels-rs/v0.34.0/",
+        "href": "https://fuellabs.github.io/fuels-rs/v0.34.0/",
         "title": "Rust SDK",
         "description": "A guide for using Rust to compile, deploy, and test sway contracts."
       },
       {
-        "href": "https://www.docs.fuel.sh/v1.1.0/SDK/Wallet.html",
+        "href": "https://docs.fuel.sh/v1.1.0/SDK/Wallet.html",
         "title": "Wallet SDK",
         "description": "A guide for using our wallet browser extension."
       },
       {
-        "href": "https://www.fuel-graphql-docs.vercel.app",
+        "href": "https://fuel-graphql-docs.vercel.app",
         "title": "GraphQL API",
         "description": "A guide for using the Fuel GraphQL API to query the Fuel blockchain."
       }
@@ -57,17 +57,17 @@
     "description": "This section provides a library and forkable examples to demonstrate how Sway and FuelVM can be used.",
     "cardsData": [
       {
-        "href": "https://www.fuellabs.github.io/sway-applications/book/",
+        "href": "https://fuellabs.github.io/sway-applications/book/",
         "title": "Sway Examples",
         "description": "A collection of sway smart contract sample implementations."
       },
       {
-        "href": "https://www.github.com/FuelLabs/sway-libs",
+        "href": "https://github.com/FuelLabs/sway-libs",
         "title": "Sway Libraries",
         "description": "A repository of libraries to import and use."
       },
       {
-        "href": "https://www.fuellabs.github.io/fuel-ui/",
+        "href": "https://fuellabs.github.io/fuel-ui/",
         "title": "UI Components",
         "description": "A storybook library of UI components from our projects."
       }
@@ -79,13 +79,13 @@
     "description": "A collection of books that dive deep into Fuel technology.",
     "cardsData": [
       {
-        "href": "https://www.fuellabs.github.io/fuel-docs/master/",
+        "href": "https://fuellabs.github.io/fuel-docs/master/",
         "title": "Fuel Book",
         "starIcon": "bookmark",
         "description": "A book on every aspect of Fuel."
       },
       {
-        "href": "https://www.fuellabs.github.io/sway/v0.34.0/book/",
+        "href": "https://fuellabs.github.io/sway/v0.34.0/book/",
         "title": "Sway Book",
         "description": "A book on sway, a smart contract programming language."
       },
@@ -95,7 +95,7 @@
         "description": "A book on fuelup - the package manager from official release channels."
       },
       {
-        "href": "https://www.wallet.fuel.network/docs/how-to-use/",
+        "href": "https://wallet.fuel.network/docs/how-to-use/",
         "title": "Wallet Book",
         "description": "A book on our wallet extension."
       },
@@ -112,23 +112,23 @@
     "description": "This collection of documents written for engineers, developers, and technical readers knowledgeable about the Fuel network.",
     "cardsData": [
       {
-        "href": "https://www.fuellabs.github.io/fuel-specs/master/",
+        "href": "https://fuellabs.github.io/fuel-specs/master/",
         "title": "Fuel Specifications",
         "starIcon": "bookmark",
         "description": "This book specifies the Fuel protocol, including the Fuel Virtual Machine."
       },
       {
-        "href": "https://www.fuellabs.github.io/sway/v0.34.0/book/reference/",
+        "href": "https://fuellabs.github.io/sway/v0.34.0/book/reference/",
         "title": "Sway Reference",
         "description": "This book is the primary reference for the sway programming language."
       },
       {
-        "href": "https://www.fuellabs.github.io/sway/v0.34.0/book/forc/",
+        "href": "https://fuellabs.github.io/sway/v0.34.0/book/forc/",
         "title": "Forc Reference",
         "description": "A reference guide for forc - the orchestrator manager."
       },
       {
-        "href": "https://www.fuellabs.github.io/rfcs/latest//",
+        "href": "https://fuellabs.github.io/rfcs/latest/",
         "title": "Contribution Guide",
         "description": "A guide on how to contribute to sway, with contribution (RFC) standards."
       }
