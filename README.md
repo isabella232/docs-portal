@@ -1,38 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## ⚡️ Fuel Documentation Portal
 
-First, run the development server:
+> **Warning**
+> This project is under active development, some features are not implemented or can present bugs/issues. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The official documentation portal of the fastest modular execution layer: [Fuel](https://fuel.network).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📗 Table of contents
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [📗 Installation Guide](https://fuellabs.github.io/fuelup/master/installation/index.html)
+- [📦 Quickstart](https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html)
+- [📦 Typescript SDK](https://github.com/FuelLabs/fuels-ts)
+- [📦 Rust SDK](https://fuellabs.github.io/fuels-rs/v0.34.0/)
+- [🧰 Fuel Wallet SDK](https://wallet.fuel.network/docs/how-to-use/)
+- [📦 GraphQL API](https://fuel-graphql-docs.vercel.app)
+- [📦 Sway Examples](https://fuellabs.github.io/sway-applications/book/)
+- [📦 Sway Libraries](https://github.com/FuelLabs/sway-libs)
+- [📦 UI Components](https://fuellabs.github.io/fuel-ui)
+- [📦 Fuel Book](https://fuellabs.github.io/fuel-docs/master/)
+- [📦 Sway Book](https://fuellabs.github.io/sway/v0.34.0/book/)
+- [📦 Fuel Up Book](https://www.fuellabs.github.io/fuelup/v0.16.2)
+- [📦 Wallet Book](https://wallet.fuel.network/docs/how-to-use/)
+- [📦 Rust Book](https://doc.rust-lang.org/book/)
+- [📦 Fuel Specifications](https://fuellabs.github.io/fuel-specs/master/)
+- [📦 Sway Reference](https://fuellabs.github.io/sway/v0.34.0/book/reference/)
+- [📦 Forc Reference](https://fuellabs.github.io/sway/v0.34.0/book/forc/)
+- [📦 Contribution Guide](https://fuellabs.github.io/rfcs/latest/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 📜 License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This repo is licensed under the `Apache-2.0` license. See [`LICENSE`](./LICENSE) for more information.
