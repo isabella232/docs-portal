@@ -16,7 +16,7 @@ export interface HeroData {
   secondaryButtonLabel: string;
   secondaryButtonLink: string;
 }
-export interface cardsData {
+export interface CardsData {
   title: string;
   starIcon?: string;
   description: string;
@@ -26,8 +26,9 @@ export interface cardsData {
 export interface SectionData {
   id?: string;
   title: string;
+  mobileTitle?: string;
   description: string;
-  cardsData: cardsData[];
+  cardsData: CardsData[];
 }
 
 export type HomeData = {

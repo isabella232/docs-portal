@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 
 import { devices } from "@/utils/devices";
-import { Flex, Section } from "@/common/Container/styles";
+import { Flex } from "@/common/Container/styles";
 
 export const Anchor = styled.a<{ isActive?: boolean }>`
   text-decoration: ${({ isActive }) => (isActive ? "underline" : "none")};
@@ -59,16 +59,28 @@ export const StickyHeader = styled.header`
   background: hsla(0, 0%, 100%, 0.8);
 
   @media ${devices.mobileL} {
-    position: relative;
-
-    ${Section} {
-      padding: 0.5rem 0;
+    & > section {
+      padding: 1rem 0;
     }
   }
 `;
 
 export const HeaderFlex = styled(Flex)`
   @media ${devices.desktopL} {
-    flex-direction: row-reverse;
+    flex-direction: row;
+  }
+`;
+
+export const MobileAnchor = styled.a`
+  width: 100%;
+
+  img {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &:hover {
+    img {
+      transform: translateX(10px);
+    }
   }
 `;

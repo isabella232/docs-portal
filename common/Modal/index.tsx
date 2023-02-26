@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { CSSTransition } from "react-transition-group";
 
 import { useHandleClose } from "@/hooks/useHandleClose";
-import { PageHideOuterScroll } from "@/styles/globalStyles";
 import {
   BurgerSidebarContainer,
   BurgerSidebarWrapper,
@@ -26,7 +25,6 @@ export const BurgerSidebar = ({
 
   return (
     <BurgerSidebarOverlay shouldShow={open}>
-      <PageHideOuterScroll shouldHide={open} />
       <CSSTransition
         in={open}
         classNames="burgerslide-transition"
@@ -37,7 +35,7 @@ export const BurgerSidebar = ({
         }}
       >
         <BurgerSidebarWrapper>
-          <BurgerSidebarContainer ref={wrapperRef} shouldShow={open}>
+          <BurgerSidebarContainer ref={wrapperRef}>
             {children}
           </BurgerSidebarContainer>
         </BurgerSidebarWrapper>

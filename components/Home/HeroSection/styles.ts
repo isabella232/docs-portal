@@ -28,4 +28,8 @@ export const HeroSectionContainer = styled.div`
   @media ${devices.tabletL} {
     background-size: auto !important;
   }
+
+  @media ${devices.mobileL} {
+    height: 104px;
+  }
 `;

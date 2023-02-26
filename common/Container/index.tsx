@@ -1,13 +1,15 @@
 import { useContext, useEffect, useRef } from "react";
+
+import useWindowSize from "@/hooks/useIsMobile";
+import useIntersectionObserver from "@/hooks/useIntersectionObserver";
+import { CurrentSectionContext } from "@/hooks/useCurrentSectionContext";
+import { HeroSectionContainer } from "@/components/Home/HeroSection/styles";
 import {
   Section,
   SectionWrapper,
   SectionCenter,
   Container,
 } from "@/common/Container/styles";
-import useIntersectionObserver from "@/hooks/useIntersectionObserver";
-import { CurrentSectionContext } from "@/hooks/useCurrentSectionContext";
-import { HeroSectionContainer } from "@/components/Home/HeroSection/styles";
 
 interface ContainerProps {
   children: React.ReactNode;
@@ -24,8 +26,10 @@ export const SectionContainer = ({
   heroSection,
   id,
 }: ContainerProps) => {
-  const { setCurrentSection } = useContext(CurrentSectionContext);
+  const { width } = useWindowSize();
+  const isMobile = width < 768;
   const containerRef = useRef<HTMLHeadingElement>(null);
+  const { setCurrentSection } = useContext(CurrentSectionContext);
   const containerObserverEntry = useIntersectionObserver(containerRef, {
     threshold: 0.15,
     rootMargin: "0px 0px -20% 0px",
@@ -40,7 +44,7 @@ export const SectionContainer = ({
 
   return (
     <Section id={id} layout={layout} padding={padding} ref={containerRef}>
-      {heroSection && <HeroSectionContainer />}
+      {(heroSection || (isMobile && !layout)) && <HeroSectionContainer />}
       <SectionWrapper>
         <SectionCenter>
           <Container layout={layout}>{children}</Container>

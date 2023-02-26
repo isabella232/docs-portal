@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 
 import { PageSEO } from "@/common/PageSeo";
@@ -28,6 +29,20 @@ const Homepage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
     <LibrariesSection librariesData={homeData.librariesData} />
     <BooksSection booksData={homeData.booksData} />
     <ReferencesSection referencesData={homeData.referencesData} />
+    <Script src={"lib/hotjar.js"} strategy="afterInteractive" />
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-3NX45KSCPG"
+      strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+      {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-3NX45KSCPG');
+        `}
+    </Script>
   </>
 );
 

@@ -49,11 +49,3 @@ export const GlobalStyle = createGlobalStyle`
       line-height: 27px;
     }
 `;
-
-export const PageHideOuterScroll = createGlobalStyle<{
-  shouldHide: boolean;
-}>`
-    body {
-      overflow-y: ${(p) => (p.shouldHide ? "hidden" : "auto")};
-    }
-`;

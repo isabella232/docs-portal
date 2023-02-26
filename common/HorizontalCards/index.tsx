@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { cardsData } from "@/data/home";
+import { CardsData } from "@/data/home";
 import { Flex } from "@/common/Container/styles";
 import {
   CardsContainer,
@@ -11,7 +11,7 @@ import {
   ImageContainer,
 } from "@/common/HorizontalCards/styles";
 
-export const HorizontalCards = ({ data }: { data: cardsData[] }) => (
+export const HorizontalCards = ({ data }: { data: CardsData[] }) => (
   <CardsContainer>
     {data.map((card, index) => (
       <CardWrapper key={index}>

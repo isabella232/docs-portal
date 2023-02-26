@@ -30,8 +30,8 @@ const ScrollToTop = () => {
       <Image
         src={"/assets/svg/arrow.svg"}
         alt="Fuel logo"
-        width="32"
-        height="32"
+        width="26"
+        height="26"
         priority
       />
     </ScrollUpContainer>

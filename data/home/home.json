@@ -1,11 +1,11 @@
 {
   "meta": {
-    "ogTitle": "Start building on Fuel today",
+    "ogTitle": "Fuel Developer Portal",
     "ogDescription": "Welcome to the Documentation Portal for building applications with Fuel. This portal provides documentation of the Sway language and includes concrete examples to demonstrate how Sway can be used.",
     "ogImage": ""
   },
   "heroData": {
-    "title": "Start building on Fuel today",
+    "title": "Fuel Documentation Portal",
     "description": "Welcome to the Documentation Portal for building applications with Fuel. This portal provides documentation of the Sway language and includes concrete examples to demonstrate how Sway can be used.",
     "primaryButtonLabel": "Installation Guide",
     "primaryButtonLink": "https://fuellabs.github.io/fuelup/master/installation/index.html",
@@ -13,7 +13,7 @@
     "secondaryButtonLink": "https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html"
   },
   "gettingStartedData": {
-    "id": "Get started",
+    "id": "Introduction",
     "title": "Getting Started",
     "description": "The following guides are compiled in order of development to help you build an application with Fuel faster. This section documents how to write smart contracts in Sway, along with how to install and use the Sway toolchain.",
     "cardsData": [
@@ -21,7 +21,7 @@
         "href": "https://fuellabs.github.io/fuelup/master/installation/index.html",
         "title": "Installation Guide",
         "starIcon": "bookmark",
-        "description": "A guide to install the Fuel toolchain, Fuel node and set up your first project."
+        "description": "A guide to install the Fuel toolchain, and set up your first project."
       },
       {
         "href": "https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html",
@@ -40,11 +40,6 @@
         "description": "A guide for using Rust to compile, deploy, and test sway contracts."
       },
       {
-        "href": "https://docs.fuel.sh/v1.1.0/SDK/Wallet.html",
-        "title": "Wallet SDK",
-        "description": "A guide for using our wallet browser extension."
-      },
-      {
         "href": "https://fuel-graphql-docs.vercel.app",
         "title": "GraphQL API",
         "description": "A guide for using the Fuel GraphQL API to query the Fuel blockchain."
@@ -52,7 +47,7 @@
     ]
   },
   "librariesData": {
-    "id": "Libraries and Examples",
+    "id": "Libraries",
     "title": "Libraries",
     "description": "This section provides a library and forkable examples to demonstrate how Sway and FuelVM can be used.",
     "cardsData": [
@@ -67,15 +62,15 @@
         "description": "A repository of libraries to import and use."
       },
       {
-        "href": "https://fuellabs.github.io/fuel-ui/",
-        "title": "UI Components",
-        "description": "A storybook library of UI components from our projects."
+        "href": "https://fuellabs.github.io/sway/master/std/",
+        "title": "Sway Libraries",
+        "description": "The official standard library for Sway."
       }
     ]
   },
   "booksData": {
-    "id": "Books",
-    "title": "Books",
+    "id": "Documentation",
+    "title": "Documentation",
     "description": "A collection of books that dive deep into Fuel technology.",
     "cardsData": [
       {
@@ -95,7 +90,7 @@
         "description": "A book on fuelup - the package manager from official release channels."
       },
       {
-        "href": "https://wallet.fuel.network/docs/how-to-use/",
+        "href": "https://wallet.fuel.network/",
         "title": "Wallet Book",
         "description": "A book on our wallet extension."
       },

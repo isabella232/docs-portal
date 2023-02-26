@@ -29,7 +29,7 @@ export const Section = styled.section<{
 
   @media ${devices.tabletM} {
     scroll-margin-top: 0;
-    padding: ${({ padding }) => (padding && "2.09375rem 0") || "2.5rem 0"};
+    padding: ${({ padding }) => (padding && "2.09375rem 0") || "2.8125rem 0"};
     grid-template-columns: ${({ layout }) =>
       !layout
         ? `minmax(2rem, auto) minmax(0, ${CONTAINER_MAX_WIDTH}) minmax(

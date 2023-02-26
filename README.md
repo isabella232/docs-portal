@@ -1,8 +1,6 @@
+## Doc Portal
 
 ## ⚡️ Fuel Documentation Portal
-
-> **Warning**
-> This project is under active development, some features are not implemented or can present bugs/issues. 
 
 The official documentation portal of the fastest modular execution layer: [Fuel](https://fuel.network).
 

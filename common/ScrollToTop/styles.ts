@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { devices } from "@/utils/devices";
-import { COLOR_BLACK } from "@/utils/colorPalette";
+import { COLOR_GREEN } from "@/utils/colorPalette";
 
 export const ScrollUpContainer = styled.div<{ show: boolean }>`
   position: fixed;
@@ -9,7 +9,7 @@ export const ScrollUpContainer = styled.div<{ show: boolean }>`
   bottom: 30px;
   z-index: 100;
   cursor: pointer;
-  background-color: ${COLOR_BLACK};
+  background-color: ${COLOR_GREEN};
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
   visibility: ${(p) => (p.show ? "visible" : "hidden")};
@@ -17,8 +17,8 @@ export const ScrollUpContainer = styled.div<{ show: boolean }>`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 
   &:hover {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.32);

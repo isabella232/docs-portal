@@ -9,7 +9,11 @@ export const CardsContainer = styled.div`
   gap: 27px;
   width: 100%;
   flex-wrap: wrap;
-  margin-top: 3.75rem;
+  margin-top: 3.25rem;
+
+  @media ${devices.mobileL} {
+    margin-top: 1.75rem;
+  }
 `;
 
 export const CardWrapper = styled.div<{ backgroundImage?: string }>`

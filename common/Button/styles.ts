@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {
   COLOR_BLACK,
   COLOR_GRAY,
+  COLOR_GREEN,
   COLOR_WHITE_LIGHT,
 } from "@/utils/colorPalette";
 
@@ -19,9 +20,9 @@ export const Container = styled.button<{
   justify-content: center;
   border-radius: 10px;
   color: ${({ variant }) =>
-    variant === "primary" ? COLOR_WHITE_LIGHT : COLOR_BLACK};
+    variant === "primary" ? COLOR_BLACK : COLOR_BLACK};
   background-color: ${({ variant }) =>
-    variant === "primary" ? COLOR_BLACK : COLOR_WHITE_LIGHT};
+    variant === "primary" ? COLOR_GREEN : COLOR_WHITE_LIGHT};
   border: ${({ variant }) =>
     variant === "primary" ? "none" : `1px solid ${COLOR_GRAY}`};
   box-shadow: ${({ variant }) =>
@@ -43,4 +44,6 @@ export const Container = styled.button<{
 export const Anchor = styled.a`
   color: inherit;
   text-decoration: none;
+  max-width: max-content;
+  width: 100%;
 `;

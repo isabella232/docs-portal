@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useContext, useState } from "react";
 
 import { Button } from "@/common/Button";
+import useWindowSize from "@/hooks/useIsMobile";
 import { SectionContainer } from "@/common/Container";
 import { BurgerMenu } from "@/common/Layout/Header/BurgerMenu";
 import { CurrentSectionContext } from "@/hooks/useCurrentSectionContext";
@@ -15,6 +16,8 @@ import {
 import { MenuItems } from "@/common/Layout/Header/MenuItems";
 
 export const Header = () => {
+  const { width } = useWindowSize();
+  const isMobile = width < 768;
   const [isMenuOpen, setIsMenOpen] = useState<boolean>(false);
   const { currentSection } = useContext(CurrentSectionContext);
 
@@ -26,8 +29,8 @@ export const Header = () => {
             <Image
               src={"/assets/svg/logo.svg"}
               alt="Fuel logo"
-              width="140"
-              height="40"
+              width={isMobile ? 100 : 140}
+              height={isMobile ? 28 : 40}
               priority
             />
           </LogoContainer>
@@ -35,7 +38,11 @@ export const Header = () => {
             <MenuItems currentSection={currentSection} />
           </DesktopMenuContainer>
           <ButtonContainer>
-            <Button href="/" text="Back to fuel.network" variant="primary" />
+            <Button
+              href="https://www.fuel.network/"
+              text="Back to fuel.network"
+              variant="primary"
+            />
           </ButtonContainer>
           <BurgerMenu
             isMenuOpen={isMenuOpen}

@@ -35,12 +35,6 @@ export const NavigationPrimary = styled.div`
         height: 2px;
         background-color: ${COLOR_BLACK};
       }
-
-      &:last-child {
-        &:after {
-          content: none;
-        }
-      }
     }
   }
 

@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   h1 {
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   h2 {
@@ -19,6 +19,18 @@ export const Container = styled.div`
 
   @media ${devices.tabletL} {
     line-height: 50.4px;
+  }
+
+  @media ${devices.mobileL} {
+    h1 {
+      font-size: 40px;
+      line-height: 42px;
+    }
+
+    h2 {
+      font-size: 35px;
+      line-height: 40px;
+    }
   }
 `;
 

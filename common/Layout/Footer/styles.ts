@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 import { devices } from "@/utils/devices";
-import { Flex, Section, SectionWrapper } from "@/common/Container/styles";
-import { COLOR_BLACK, COLOR_WHITE_LIGHT } from "@/utils/colorPalette";
+import { Flex, Section } from "@/common/Container/styles";
+import { COLOR_BLACK, COLOR_GREEN } from "@/utils/colorPalette";
 import { LogoContainer } from "@/common/Layout/Header/styles";
 
 export const Tooltip = styled.div`
@@ -13,14 +13,13 @@ export const Tooltip = styled.div`
   padding: 0.8rem 1rem;
   border-radius: 40px;
   font-size: 0.8rem;
-  font-weight: bold;
   opacity: 0;
   pointer-events: none;
   text-transform: uppercase;
   transform: translate(-50%, -100%);
   transition: all 0.3s ease;
-  background: ${COLOR_BLACK};
-  color: ${COLOR_WHITE_LIGHT};
+  background: ${COLOR_GREEN};
+  color: ${COLOR_BLACK};
   z-index: 1;
 
   &:after {
@@ -34,7 +33,7 @@ export const Tooltip = styled.div`
     border: solid;
     border-width: 10px 10px 0 10px;
     border-color: transparent;
-    border-top-color: ${COLOR_BLACK};
+    border-top-color: ${COLOR_GREEN};
     transform: translate(-50%, 100%);
   }
 `;
@@ -57,7 +56,7 @@ export const SocialsContainer = styled.div<{
     }
   }
 
-  @media ${devices.mobileL} {
+  @media ${devices.desktopL} {
     gap: 0;
 
     a {
@@ -71,18 +70,20 @@ export const SocialsContainer = styled.div<{
   }
 `;
 
-export const FlexContainer = styled(Flex)`
+export const FlexContainer = styled(Flex)<{
+  hideLogo?: boolean;
+}>`
+  /* justify-content: ${({ hideLogo }) => (hideLogo ? "right" : "")};
+  align-items: ${({ hideLogo }) => (hideLogo ? "flex-end" : "")}; */
+
   @media ${devices.mobileL} {
     flex-direction: column;
     align-items: flex-start;
     gap: 5.125rem;
   }
 
-  @media ${devices.tabletM} {
+  @media ${devices.desktopL} {
     justify-content: right;
-  }
-
-  @media ${devices.mobileL} {
     align-items: flex-end;
   }
 `;
@@ -90,9 +91,14 @@ export const FlexContainer = styled(Flex)`
 export const FooterWrapper = styled.footer<{
   hideLogo?: boolean;
 }>`
+  margin-top: ${({ hideLogo }) => (hideLogo ? "auto" : "")};
+
   ${Section} {
     border-bottom: 0;
-    margin-left: ${({ hideLogo }) => (hideLogo ? "-3.375rem" : "0")};
+
+    @media ${devices.desktopL} {
+      padding: 0;
+    }
 
     @media ${devices.mobileL} {
       margin-left: 0;
@@ -100,7 +106,6 @@ export const FooterWrapper = styled.footer<{
   }
 
   @media ${devices.tabletL} {
-    padding-top: ${({ hideLogo }) => (hideLogo ? "5rem" : "0")};
     position: relative;
 
     &:before {
@@ -114,7 +119,7 @@ export const FooterWrapper = styled.footer<{
     }
   }
 
-  @media ${devices.tabletL} {
+  @media ${devices.desktopL} {
     ${LogoContainer} {
       display: none;
     }
