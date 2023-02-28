@@ -17,6 +17,11 @@ const FooterSocials = [
     link: "https://twitter.com/fuellabs_",
   },
   {
+    name: "Forum",
+    icon: "/assets/svg/forum.svg",
+    link: "https://forum.fuel.network/",
+  },
+  {
     name: "Discord",
     icon: "/assets/svg/discord.svg",
     link: "https://discord.com/invite/xfpK4Pe",
