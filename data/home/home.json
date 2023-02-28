@@ -63,7 +63,7 @@
       },
       {
         "href": "https://fuellabs.github.io/sway/master/std/",
-        "title": "Sway Libraries",
+        "title": "Standard Library",
         "description": "The official standard library for Sway."
       }
     ]
