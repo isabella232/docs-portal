@@ -123,11 +123,6 @@
         "description": "A reference guide for forc - the orchestrator manager."
       },
       {
-        "href": "https://forum.fuel.network/",
-        "title": "Fuel Forum",
-        "description": "Ask questions, get updates, and contribute to the community."
-      },
-      {
         "href": "https://fuellabs.github.io/rfcs/latest/",
         "title": "Contribution Guide",
         "description": "A guide on how to contribute to sway, with contribution (RFC) standards."
