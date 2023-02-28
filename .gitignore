@@ -1,0 +1,14 @@
+node_modules
+
+# next.js
+.next/
+out/
+build
+dist
+dist-ssr
+
+# misc
+.DS_Store
+
+# local env files
+.env
