@@ -86,7 +86,7 @@
       },
       {
         "href": "https://www.fuellabs.github.io/fuelup/v0.16.2/",
-        "title": "Fuel Up Book",
+        "title": "FuelUp Book",
         "description": "A book on fuelup - the package manager from official release channels."
       },
       {
@@ -121,6 +121,11 @@
         "href": "https://fuellabs.github.io/sway/v0.34.0/book/forc/",
         "title": "Forc Reference",
         "description": "A reference guide for forc - the orchestrator manager."
+      },
+      {
+        "href": "https://forum.fuel.network/",
+        "title": "Fuel Forum",
+        "description": "Ask questions, get updates, and contribute to the community."
       },
       {
         "href": "https://fuellabs.github.io/rfcs/latest/",
