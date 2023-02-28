@@ -24,7 +24,7 @@
         "description": "A guide to install the Fuel toolchain, and set up your first project."
       },
       {
-        "href": "https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html",
+        "href": "https://fuellabs.github.io/fuel-docs/master/quickstart/developer-quickstart.html",
         "title": "Developer Quickstart",
         "starIcon": "bookmark",
         "description": "A guide for writing contracts, deploying to Fuel, and building a frontend."
