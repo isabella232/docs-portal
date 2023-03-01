@@ -10,7 +10,7 @@
     "primaryButtonLabel": "Installation Guide",
     "primaryButtonLink": "https://fuellabs.github.io/fuelup/master/installation/index.html",
     "secondaryButtonLabel": "Quickstart",
-    "secondaryButtonLink": "https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html"
+    "secondaryButtonLink": " https://fuellabs.github.io/fuel-docs/master/quickstart/developer-quickstart.html"
   },
   "gettingStartedData": {
     "id": "Introduction",
