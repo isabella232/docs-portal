@@ -95,6 +95,11 @@
         "description": "A book on our wallet extension."
       },
       {
+        "href": "https://fuellabs.github.io/fuel-indexer/master/,",
+        "title": "Indexer Book",
+        "description": "A book on our indexer."
+      },
+      {
         "href": "https://doc.rust-lang.org/book/",
         "title": "Rust Book",
         "description": "The Rust programming language, an introductory book about Rust."
