@@ -8,7 +8,7 @@
     "title": "Fuel Documentation Portal",
     "description": "Welcome to the Documentation Portal for building applications with Fuel. This portal provides documentation of the Sway language and includes concrete examples to demonstrate how Sway can be used.",
     "primaryButtonLabel": "Installation Guide",
-    "primaryButtonLink": "https://fuellabs.github.io/fuelup/master/installation/index.html",
+    "primaryButtonLink": "https://install.fuel.network/v0.18.1/",
     "secondaryButtonLabel": "Quickstart",
     "secondaryButtonLink": " https://fuellabs.github.io/fuel-docs/master/quickstart/developer-quickstart.html"
   },
