@@ -17,7 +17,7 @@ The official documentation portal of the fastest modular execution layer: [Fuel]
 - [📦 UI Components](https://fuellabs.github.io/fuel-ui)
 - [📦 Fuel Book](https://fuellabs.github.io/fuel-docs/master/)
 - [📦 Sway Book](https://fuellabs.github.io/sway/v0.34.0/book/)
-- [📦 Fuel Up Book](https://www.fuellabs.github.io/fuelup/v0.16.2)
+- [📦 Fuel Up Book](https://fuellabs.github.io/fuelup/v0.16.2)
 - [📦 Wallet Book](https://wallet.fuel.network/docs/how-to-use/)
 - [📦 Rust Book](https://doc.rust-lang.org/book/)
 - [📦 Fuel Specifications](https://fuellabs.github.io/fuel-specs/master/)
