@@ -1,7 +1,7 @@
 {
   "meta": {
     "ogTitle": "Fuel Developer Portal",
-    "ogDescription": "Welcome to the Documentation Portal for building applications with Fuel. This portal provides documentation of the Sway language and includes concrete examples to demonstrate how Sway can be used.",
+    "ogDescription": "Welcome to the Fuel Documentation Portal - the ultimate resource for developers looking to build applications on Fuel. This portal provides an overview of documentation, guides, libraries and concrete examples of the Sway language to demonstrate how to build on Fuel.",
     "ogImage": ""
   },
   "heroData": {
@@ -15,7 +15,7 @@
   "gettingStartedData": {
     "id": "Introduction",
     "title": "Getting Started",
-    "description": "The following guides are compiled in order of development to help you build an application with Fuel faster. This section documents how to write smart contracts in Sway, along with how to install and use the Sway toolchain.",
+    "description": "The following guides get you started building on Fuel. This section documents how to install and use the Sway toolchain, along with how to write your first smart contracts in Sway.",
     "cardsData": [
       {
         "href": "https://fuellabs.github.io/fuelup/master/installation/index.html",
@@ -32,12 +32,12 @@
       {
         "href": "https://github.com/FuelLabs/fuels-ts",
         "title": "Typescript SDK",
-        "description": "A guide for building dapps on Fuel network."
+        "description": "A guide for using Typescript to compile, deploy and test smart contracts on Fuel."
       },
       {
         "href": "https://fuellabs.github.io/fuels-rs/v0.34.0/",
         "title": "Rust SDK",
-        "description": "A guide for using Rust to compile, deploy, and test sway contracts."
+        "description": "A guide for using Rust to compile, deploy and test smart contracts on Fuel."
       },
       {
         "href": "https://fuel-graphql-docs.vercel.app",
@@ -49,7 +49,7 @@
   "librariesData": {
     "id": "Libraries",
     "title": "Libraries",
-    "description": "This section provides a library and forkable examples to demonstrate how Sway and FuelVM can be used.",
+    "description": "This section provides an overview of available libraries and forkable code examples to freely import and use.",
     "cardsData": [
       {
         "href": "https://fuellabs.github.io/sway-applications/book/",
@@ -59,7 +59,7 @@
       {
         "href": "https://github.com/FuelLabs/sway-libs",
         "title": "Sway Libraries",
-        "description": "A repository of libraries to import and use."
+        "description": "A repository of libraries that are not part of the standard library."
       },
       {
         "href": "https://fuellabs.github.io/sway/master/std/",
@@ -71,7 +71,7 @@
   "booksData": {
     "id": "Documentation",
     "title": "Documentation",
-    "description": "A collection of books that dive deep into Fuel technology.",
+    "description": "A collection of books that deep dive into how Fuel works.",
     "cardsData": [
       {
         "href": "https://fuellabs.github.io/fuel-docs/master/",
@@ -92,24 +92,24 @@
       {
         "href": "https://wallet.fuel.network/",
         "title": "Wallet Book",
-        "description": "A book on our wallet extension."
+        "description": "A book about Fuel's wallet extension."
       },
       {
         "href": "https://fuellabs.github.io/fuel-indexer/master/",
         "title": "Indexer Book",
-        "description": "A book on our indexer."
+        "description": "A book about Fuel's indexer."
       },
       {
         "href": "https://doc.rust-lang.org/book/",
         "title": "Rust Book",
-        "description": "The Rust programming language, an introductory book about Rust."
+        "description": "An introductory book about Rust."
       }
     ]
   },
   "referencesData": {
     "id": "References",
     "title": "References",
-    "description": "This collection of documents written for engineers, developers, and technical readers knowledgeable about the Fuel network.",
+    "description": "Additional documents written for technical readers that are knowledgeable about the Fuel network.",
     "cardsData": [
       {
         "href": "https://fuellabs.github.io/fuel-specs/master/",
