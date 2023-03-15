@@ -15,7 +15,7 @@
   "gettingStartedData": {
     "id": "Introduction",
     "title": "Getting Started",
-    "description": "The following guides get you started building on Fuel. This section documents how to install and use the Sway toolchain, along with how to write your first smart contracts in Sway.",
+    "description": "The following guides get you started building on Fuel. This section documents how to install and use the Fuel toolchain, along with how to write your first smart contracts in Sway.",
     "cardsData": [
       {
         "href": "https://fuellabs.github.io/fuelup/master/installation/index.html",
