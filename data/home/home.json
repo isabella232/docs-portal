@@ -80,7 +80,7 @@
         "description": "A book on every aspect of Fuel."
       },
       {
-        "href": "https://fuellabs.github.io/sway/v0.34.0/book/",
+        "href": "https://fuellabs.github.io/sway/master/book/",
         "title": "Sway Book",
         "description": "A book on sway, a smart contract programming language."
       },
